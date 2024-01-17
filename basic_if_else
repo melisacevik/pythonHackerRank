@@ -1,0 +1,24 @@
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+
+if __name__ == '__main__':
+    n = int(input().strip())
+
+name = "Weird"
+name2 = "Not Weird"
+for _ in range(3,100):
+    if n == 24:
+        print(name2)
+        break
+    else:
+        print(name)
+        break
+
+
+
