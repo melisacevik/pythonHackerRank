@@ -18,4 +18,21 @@ print(result)
 
 ```
 
+# HackerRank Basic Python Solutions
+
+This repository contains solutions to the Basic Python questions on the HackerRank platform. These questions cover fundamental topics in the Python programming language and are aimed at beginners in programming.
+
+## How to Use ❓
+
+The solution for each question can be found in the respective Python file. The files are named after the questions. For example, you can review the solution for the "String Concatenation" question in the "string_concatenation.py" file.
+
+```python
+# Sample Solution
+def string_concatenation(s1, s2):
+    return s1 + s2
+
+# Test
+result = string_concatenation("Hello, ", "World!")
+print(result)
+
  
