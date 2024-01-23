@@ -1,0 +1,6 @@
+string = "BCDCCDC"
+sub_string = "CDC"
+
+substrArray = string.split(sub_string)
+substrArray.remove("")
+count = len(substrArray)
