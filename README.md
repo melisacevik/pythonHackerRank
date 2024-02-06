@@ -18,6 +18,7 @@ print(result)
 
 ```
 
+
 # HackerRank Basic Python Solutions
 
 This repository contains solutions to the Basic Python questions on the HackerRank platform. These questions cover fundamental topics in the Python programming language and are aimed at beginners in programming.
