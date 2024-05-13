@@ -1,6 +1,6 @@
 # 30 Days of Code
 
-# Day 1: Data Types
+### Day 1: Data Types ###
 
 i = 4
 d = 4.0
@@ -18,7 +18,7 @@ print(d + d2)
 print(s + s2)
 # The 's' variable above should be printed first.
 
-# Day 2: Operators
+### Day 2: Operators ###
 
 #!/bin/python3
 
@@ -52,3 +52,27 @@ if __name__ == '__main__':
     tax_percent = int(input().strip())
 
     solve(meal_cost, tip_percent, tax_percent)
+
+
+### Day 3: Intro to Conditional Statements ###
+
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+
+
+if __name__ == '__main__':
+    N = int(input().strip())
+    if N % 2 == 1:
+        print("Weird")
+    elif ((N % 2 == 0) & (N >= 2) & (N <= 5)):
+        print("Not Weird")
+    elif ((N % 2 == 0) & (N >= 6) & (N <= 20)):
+        print("Weird")
+    elif ((N % 2 == 0) & ( N >= 20)):
+        print("Not Weird")
