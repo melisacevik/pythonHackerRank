@@ -132,3 +132,25 @@ if __name__ == '__main__':
 
 for i in range(1,11):
     print (f"{n} x {i} = {i * n}")
+
+
+
+#### Day 6 ######
+
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+input_ = int(input())
+
+for _ in range(input_):
+    input_i = input().strip()
+
+    groups=[[], []]
+    for j,word in enumerate(input_i):
+        if j % 2 == 0:
+            groups[0].append(word)
+        else:
+            groups[1].append(word)
+    
+    res = ["".join(group) for group in groups]
+    
+    con_string = " ".join(res)
+    print(con_string)
